@@ -24,8 +24,10 @@ def newUser(): #Variabel Lokal #Gilang
 def oldUser(): #Variabel Lokal #Abiyoga
 	login = str(input("Masukan nama akun :"))
 	passw = str(input("Masukan Password : "))
-		
-	if login in users and users[login] == passw:
+	prodi = str(input("masukan prodi : "))
+	
+	
+	if login in users and users[login] == passw == prodi:
 		print("\nLogin Berhasil!\n")
 		inputSaran()
 		print("\n")

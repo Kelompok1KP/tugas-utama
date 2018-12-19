@@ -13,4 +13,7 @@ while (pilihan < 5):
 		lib.read()
 	elif pilihan == 4:
 		break
+	elif pilihan == 5:
+		print(" Informatika, Sistem Informasi, TI")
+		
 	

@@ -6,6 +6,7 @@ def option(): #Variabel Lokal #Marta
 	print("\n2. Untuk buat akun")
 	print("\n3. Untuk menampilkan saran")
 	print("\n4. Untuk keluar program")
+	print("\n5. tdk tersedia")
 	pilihan = int(input("masukan pilihan anda: "))
 	return pilihan
 	
@@ -42,6 +43,7 @@ def inputSaran(): #Variabel Lokal #Iga Esti
 	file = open("database.txt","a")
 	file.write("Dari :{}\n".format(createLogin))
 	file.write("Saran :{}\n".format(Saran))
+	file.write("prodi:prodi inf")
 	file.write("\n")
 	
 def read(): #Iga Esti

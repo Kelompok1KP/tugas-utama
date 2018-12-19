@@ -13,7 +13,7 @@ def newUser(): #Variabel Lokal #Gilang
 	global createLogin
 	
 	createLogin = str(input ("Masukan nama akun :"))
-	
+	createprodi = str(input("masukan prodi :"))
 	if createLogin in users:
 		print("\nLogin name already exist!\n")
 	else:

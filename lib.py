@@ -46,4 +46,4 @@ def read(): #Iga Esti
 	file =open("database.txt", "r")
 	print("\n==Saran untuk Universitas Jenderal Achmad Yani==\n")
 	print(file.read())
-	print(ht)
+	print("A")
